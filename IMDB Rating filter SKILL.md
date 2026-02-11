@@ -1,28 +1,4 @@
----
-name: subscription-analyzer
-description: Analyze Gmail subscriptions and trials to prevent unwanted billing
-version: 1.0.0
----
 
-# Subscription Analyzer Skill
-
-## Overview
-This skill enables Claude to analyze Gmail for trial subscriptions and recurring charges, providing recommendations to prevent unwanted billing.
-
-## Core Capabilities
-1. **Email Analysis**: Search Gmail for subscription-related emails (trials, confirmations, renewals)
-2. **Trial Detection**: Identify active trial periods and expiration dates
-3. **Billing Prevention**: Recommend cancellations before trial periods end
-4. **Subscription Inventory**: Maintain a comprehensive list of active subscriptions
-
-## When to Use This Skill
-Trigger this skill when users ask about:
-- "What subscriptions do I have?"
-- "Show me my active trials"
-- "Which trials are ending soon?"
-- "Help me avoid unwanted charges"
-- "Cancel subscriptions before billing"
-- Any query about managing subscriptions, trials, or recurring payments
 
 ## Implementation Approach
 
